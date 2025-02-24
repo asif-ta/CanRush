@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1440px;
+    height: 100%;
+    margin: 0px auto;
+    /* background-color: rgba(0, 0, 0,0.5); */
+}
+body{
+    background-color: #fff;
+}
+header{
+    width:100%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.logo{
+    width: 180px;
+    height: 60px;
+    float: left;
+    margin: 20px 0px 20px 20px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    /* background-color: brown; */
+}
+.headerIcons{
+    float: right;
+    margin: 35px 40px 0px 0px;
+}
+.headerIcons ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.headerIcons ul li{
+    margin-left: 54px;
+}
+.headerIcons ul li a{
+    text-decoration: none;
+}
+.search{
+    width: 30px;
+    height: 30px;
+    background: url(../img/search.png) no-repeat;
+    background-size: contain;
+    /* background-color: blue; */
+}
+.search:hover{
+    background: url(../img/searchHovered.png) no-repeat;
+    background-size: contain;
+}
+.language{
+    width: 30px;
+    height: 30px;
+    background: url(../img/languageIcon.png) no-repeat;
+    background-size: contain;
+    /* background-color: chartreuse; */
+}
+.language:hover{
+    background: url(../img/languageHovered.png) no-repeat;
+    background-size: contain;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    background: url(../img/profileIcon.png) no-repeat;
+    background-size: contain;
+    /* background-color: crimson; */
+}
+.profile:hover{
+    background: url(../img/profileHovered.png) no-repeat;
+    background-size: contain;
+}
+.cart{
+    width: 30px;
+    height: 30px;
+    background: url(../img/cartIcon.png) no-repeat;
+    background-size: contain;
+    /* background-color: darkgreen; */
+}
+.cart:hover{
+    background: url(../img/cartHovered.png) no-repeat;
+    background-size: contain;
+}
+.offerSection{
+    width: 100%;
+    height: 980px;
+    background: url(../img/bannerGirl.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    font-family: "Style Script", serif;
+    font-style: normal;
+}
+.offerSection h1{
+    font-size: 100px;
+    font-weight: normal;
+    position: absolute;
+    right: 304px;
+    top: 63px;
+    /* color: #000; */
+}
+.offerSection h6{
+    font-size: 36px;
+    font-weight: normal;
+    color: #fff;
+    position: absolute;
+    right: 378px;
+    top: 430px;
+}
+.offerSection h4{
+    font-size: 80px;
+    color: #fff;
+    font-weight: normal;
+    position: absolute;
+    right: 313px;
+    top: 507px;
+}
+.offerSection h5{
+    font-size: 80px;
+    color: #fff;
+    font-weight: normal;
+    position: absolute;
+    right: 286px;
+    top: 632px;
+}
+.product{
+    width: 390px;
+    height: 674px;
+    background: url(../img/canMockup.png) no-repeat;
+    background-size: 412%;
+    background-position: -570px -220px;
+    /* background-color: coral; */
+    float: right;
+    position: absolute;
+    right: 448px;
+    bottom: 119px;
+    transition: all ease-in-out 0.46s;
+}
+.product:hover{
+    transform: translateY(-50px);
+}
+.product:hover .productStrip{
+    background-position: -986px -95px;
+}
+.productStrip{
+    width: 100%;
+    height: 100%;
+    background: url(../img/canStrips.png);
+    background-size: 412%;
+    background-position: -570px -220px;
+    mix-blend-mode: multiply;
+    mask-image: url(../img/canMask.png);
+    mask-position: -558px -212px;
+    mask-size: 405%;
+    transition: all ease-in-out 0.46s;
+}
+.productList{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    font-family: "Poppins", serif;
+}
+.productList h1{
+    font-size: 36px;
+    font-weight:normal;
+    margin-top: 50px;
+    float: left;
+}
+.allProductsButton{
+    width: 149px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: normal;
+    float: right;
+    border: #000 solid 1px;
+    border-radius: 30px;
+    opacity: 0.3;
+    margin-top: 54px;
+}
+.allProductsButton:hover{
+    opacity: 1;
+}
+.firstRow{
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+.firstRow div{
+    width: 430px;
+    height: 489px;
+    /* background-color: blue; */
+}
+.firstRow div div{
+    width: 100%;
+    height: 400px;
+    transition: all ease-in-out 0.46s;
+    /* background-color: chartreuse; */
+}
+.firstRow div div:hover{
+    transform: translateY(-30px);
+}
+.pepsi{
+    background: url(../img/productPepsi.png) no-repeat center;
+    background-size: contain;
+}
+.productList p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 13px;
+}
+.productList h2{
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+}
+.mirinda{
+    background: url(../img/productMirinda.png) no-repeat center;
+    background-size: contain;
+}
+.sprite{
+    background: url(../img/productSprite.png) no-repeat center;
+    background-size: contain;
+}
+.secondRow{
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.secondRow div{
+    width: 430px;
+    height: 489px;
+    /* background-color: blue; */
+}
+.secondRow div div{
+    width: 100%;
+    height: 400px;
+    transition: all ease-in-out 0.46s;
+    /* background-color: chartreuse; */
+}
+.secondRow div div:hover{
+    transform: translateY(-30px);
+}
+.fanta{
+    background: url(../img/ProductFanta.png) no-repeat center;
+    background-size: contain;
+}
+.cocaCola{
+    background: url(../img/productCocaCola.png) no-repeat center;
+    background-size: contain;
+}
+.mtnDew{
+    background: url(../img/ProductMountainDew.png) no-repeat center;
+    background-size: contain;
+}
+.advSection{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+video{
+    width: 1720px;
+    height: 968px;
+    margin: 70px 100px;
+    border-radius: 100px;
+}
+.aboutSection{
+    width: 100%;
+    height:100%;
+    font-family: "Poppins", serif;
+    padding-top: 127px;
+}
+.aboutSection h4{
+    font-size: 36px;
+    font-weight:normal;
+    margin-bottom: 31px;
+}
+.aboutSection p{
+    font-size: 18px;
+    font-weight:normal;
+    margin-bottom: 286px;
+}
+.firstPortion{
+    width: 50%;
+    background-color: black;
+    /* height: 100px; */
+    float: left;
+    position: relative;
+}
+.firstPortion div{
+    width: 467px;
+    height: 467px;
+    background-color: aqua;
+}
+.pictureBox{
+    position: absolute;
+    background: url(../img/poepleChilling.png);
+    background-size:contain;
+    animation-name: pictureBoxAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.otherPictureBox{
+    position: absolute;
+    top: 233px;
+    right: 10px;
+    background: url(../img/shopSignboard.png);
+    background-size:contain;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0,0.25);
+    animation-name: otherPictureBoxAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes pictureBoxAnimation{
+    0%{
+
+    }
+    25%{
+        transform: translateX(0px) translateY(0px);
+    }
+    50%{
+        transform: translateX(243px) translateY(233px);
+    }
+    75%{
+        transform: translateX(243px) translateY(233px);
+        z-index: 2;
+    }
+    100%{
+        transform: translateX(0px) translateY(0px);
+        z-index: 1;
+    }
+    
+}
+@keyframes otherPictureBoxAnimation{
+    0%{
+
+    }
+    25%{
+        transform: translateX(0px) translateY(0px);
+    }
+    50%{
+        transform: translateX(-243px) translateY(-233px);
+    }
+    75%{
+        transform: translateX(-243px) translateY(-233px);
+        z-index: 1;
+    }
+    100%{
+        transform: translateX(0px) translateY(0px);
+        z-index: 2;
+    }
+}
+.secondPortion{
+    width: 50%;
+    /* background-color: rgb(255, 0, 0); */
+    /* height: 100px; */
+    float: right;
+    padding:40px 77px 0px 55px;
+}
+.clearFloat{
+    clear: both;
+    width: 100%;
+}
+.footerSection{
+    font-family: "Poppins", serif;
+    width: 100%;
+    height: 300px;
+}
+.footerSection .grid div{
+    /* background-color: rgb(21, 255, 0); */
+    margin: 48px 60px 0px 0px;
+    float: left;
+}
+.footerSection h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+.footerSection ul{
+    padding-top: 13px;
+    font-size: 16px;
+    list-style: none;
+}
+.footerSection ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.6);
+}
+.footerSection ul li a:hover{
+    color: rgba(0, 0, 0,1);
+}
+.socialMediaIcons li{
+    width: 30px;
+    height: 30px;
+    margin-right: 26px;
+    /* background-color: coral; */
+    float: left;
+}
+.instagram{
+    background: url(../img/instagram.png) no-repeat;
+        background-size: contain;
+}
+.instagram:hover{
+    background: url(../img/instagramHovered.png) no-repeat;
+    background-size: contain;
+}
+.facebook{
+    background: url(../img/facebook.png) no-repeat;
+    background-size: contain;
+}
+.facebook:hover{
+    background: url(../img/facebookHovered.png) no-repeat;
+    background-size: contain;
+}
+.twitter{
+    background: url(../img/twitter.png) no-repeat;
+    background-size: contain;
+}
+.twitter:hover{
+    background: url(../img/twitterHovered.png) no-repeat;
+    background-size: contain;
+}
+.youTube{
+    background: url(../img/youtube.png) no-repeat;
+    background-size: contain;
+}
+.youTube:hover{
+    background: url(../img/youTubeHovered.png) no-repeat;
+    background-size: contain;
+}
+#footerLogo{
+    width: 180px;
+    height: 60px;
+    margin: 0px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    /* background-color: rgb(98, 0, 255); */
+    float: right;
+    margin: 48px 28px 0px 0px;
+}
