@@ -11,7 +11,8 @@
 }
 .grid{
     width: 1440px;
-    height: 100%;
+    /* width: 75%; */
+    /* height: 100%; */
     margin: 0px auto;
     /* background-color: rgba(0, 0, 0,0.5); */
 }
@@ -272,7 +273,7 @@ header{
 .advSection{
     width: 100%;
     /*height: 1105px; */
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: center;
 }
