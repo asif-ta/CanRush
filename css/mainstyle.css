@@ -188,6 +188,10 @@ header{
     opacity: 0.3;
     margin-top: 54px;
 }
+.allProductsButton a{
+    text-decoration: none;
+    color: #000;
+}
 .allProductsButton:hover{
     opacity: 1;
 }
@@ -198,6 +202,10 @@ header{
     /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
+}
+.firstRow a{
+    text-decoration: none;
+    color: #000;
 }
 .firstRow div{
     width: 430px;
@@ -243,6 +251,10 @@ header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+}
+.secondRow a{
+    text-decoration: none;
+    color: #000;
 }
 .secondRow div{
     width: 430px;
@@ -454,4 +466,511 @@ video{
     /* background-color: rgb(98, 0, 255); */
     float: right;
     margin: 48px 28px 0px 0px;
+}
+
+
+/* ALL PRODUCTS PAGE*/
+
+.popi{
+    background: url(../img/productPoppi.png) no-repeat center;
+    background-size: contain;
+}
+.wave{
+    background: url(../img/productNewWaveSoda.png) no-repeat center;
+    background-size: contain;
+}
+.culture{
+    background: url(../img/productCulturePopSoda.png) no-repeat center;
+    background-size: contain;
+}
+.seven-up{
+    background: url(../img/product7Up.png) no-repeat center;
+    background-size: contain;
+}
+.drPepper{
+    background: url(../img/productDrPepper.png) no-repeat center;
+    background-size: contain;
+}
+.olipop{
+    background: url(../img/productOliPop.png) no-repeat center;
+    background-size: contain;
+
+}
+
+/* CART PAGE */
+
+.cartSection{
+    /* background: red; */
+    font-family: "Poppins", serif;
+}
+.cartSection h1{
+    padding-top: 23px;
+    font-weight: normal;
+    font-size: 36px;
+}
+.cartSection .firstBoxx{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 37px;
+    color: #000;
+}
+.pepsiInCart{
+    background: url(../img/productPepsi.png) no-repeat center;
+    background-size: contain;
+    width: 305px;
+    height: 100%;
+    float: left;
+    transition: all ease-in-out 0.46s;
+}
+.pepsiInCart:hover{
+    transform: translateY(-25px);
+}
+.cartSection .textBox{
+    margin-top: 50px;
+    height: 189px;
+    width: 712px;
+    float: left;
+    /* line-height: 189px; */
+}
+.cartSection h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.cartSection p{
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 70%;
+}
+.interactiveButtons{
+    width: 223px;
+    height: 207px;
+    float: right;
+}
+.interactiveButtons .CancelIcon{
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    background: url(../img/cancelIcon.png) no-repeat;
+    background-size: contain;
+    float: right;
+    transition: all ease-in-out 0.46s;
+}
+.interactiveButtons .CancelIcon:hover{
+    border: 0px solid rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    background: #B7B6B6 url(../img/cancelIcon.png) no-repeat;
+    background-size: contain;
+}
+.interactiveButtons .plusMinuiseButton{
+    width: 222px;
+    height: 82px;
+    float: right;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    margin:30px 0px;
+}
+.interactiveButtons .plusMinuiseButton h2{
+    transition: all ease-in-out 0.46s;
+}
+.interactiveButtons .plusMinuiseButton h2:first-child:hover{
+    transform: translateY(-10px);
+}
+.interactiveButtons .plusMinuiseButton h2:last-child:hover{
+    transform: translateY(-10px);
+}
+.interactiveButtons .price{
+    margin-right: 82px;
+    float: right;
+}
+
+.cartSection .secondBoxx{
+
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 47px;
+}
+.mirindaInCart{
+    background: url(../img/productMirinda.png) no-repeat center;
+    background-size: contain;
+    width: 305px;
+    height: 100%;
+    float: left;
+    transition: all ease-in-out 0.46s;
+}
+.mirindaInCart:hover{
+    transform: translateY(-25px);
+}
+.bottomBar{
+    height: 100px;
+    /* background-color: blue; */
+}
+.bottomBar h2{
+    float: right;
+    line-height: 82px;
+    margin-right: 112px;
+}
+.bottomBar h2 span{
+    opacity: 70%;
+    padding-right: 26px;
+}
+.bottomBar .shopNowButton{
+    width: 253px;
+    height: 82px;
+    border-radius: 41px;
+    text-align: center;
+    line-height: 82px;
+    float: right;
+    background: #000 ;
+    margin-right: 0px;
+    color: #fff;
+    transition: all ease-in-out 0.46s;
+}
+.bottomBar .shopNowButton:hover{
+    transform: scale(110%);
+}
+
+
+/* PRODUCT DETAIL PAGE */
+
+.productDetailedSection{
+    width: 100%;
+    height: 800px;
+    /* background-color: crimson; */
+    font-family: "Poppins", serif;
+}
+.detailedProductPicture{
+    width: 543px;
+    height: 595px;
+    margin: 100px 0px 0px 79px;
+    float: left;
+    background: url(../img/productPepsi.png) no-repeat center;
+    background-size: contain;
+    transition: all ease-in-out 0.46s;
+}
+.detailedProductPicture:hover{
+    transform: translateY(-30px);
+}
+.DetailedTextAndButtons{
+    width: 712px;
+    height: 438px;
+    /* background-color: aqua; */
+    float: right;
+    margin-top: 108px;
+    position: relative;
+}
+.productDetailedSection h2{
+    font-weight: normal;
+    font-size: 32px;
+}
+.rating{
+    width: 83px;
+    height: 36px;
+    background: #26A541 url(../img/starSymbol.png) no-repeat;
+    background-size: contain;
+    background-position: 46px 0px;
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    right: 295px;
+}
+.rating h6{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 36px;
+    padding-left: 16px;
+}
+.DetailedTextAndButtons p{
+    font-size: 18px;
+    opacity: 50%;
+    padding: 10px 0px 20px 0px;
+}
+.addToCartButton{
+    width: 589px;
+    height: 100px;
+    line-height: 100px;
+    background: #000;
+    border-radius: 50px;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    transition: all ease-in-out 0.46s;
+}
+.addToCartButton:hover{
+    transform: scale(105%);
+}
+.paymentIcons {
+    list-style: none;
+    width: 588px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.paymentIcons li{
+    width: 102px;
+    height: 100%;
+}
+
+.paymentIcons .gPay{
+    background: url(../img/GPayLogo.png) no-repeat center;
+    background-size: contain;
+}
+.paymentIcons .payPal{
+    background: url(../img/payPalLogo.png) no-repeat center;
+    background-size: contain;
+}
+.paymentIcons .ebay{
+    background: url(../img/ebayLogo.png) no-repeat center;
+    background-size: contain;
+}
+.paymentIcons .visa{
+    background: url(../img/visaLogo.png) no-repeat center;
+    background-size: contain;
+}
+.paymentIcons .shop{
+    background: url(../img/shopLogo.png) no-repeat center;
+    background-size: contain;
+}
+
+
+
+
+.commentSection{
+    width: 100%;
+    height: 694px;
+    /* background-color: aqua; */
+    font-family: "Poppins", serif;
+}
+
+.commentSection h1{
+    font-size: 36px;
+    font-weight: normal;
+}
+.CommentWriteBox{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-top: 23px;
+    position: relative;
+}
+.CommentWriteBox p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0px 0px 28px;
+}
+.sendButton{
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #000;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 32px;
+    margin: 0px 10px 10px 0px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    transition: all ease-in-out 0.46s;
+}
+.sendButton:hover{
+    transform: scale(110%);
+}
+.comments div{
+    width: 710px;
+    height: 150px;
+    margin-top: 23px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    float: left;
+    position: relative;
+}
+.comments div:first-child{
+    margin-right: 20px;
+}
+.comments div:nth-child(3){
+    margin-right: 20px;
+}
+.comments h6{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 15px 0px 0px 28px;
+}
+.comments p{
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 46px 0px 0px 28px;
+    max-width: 426px;
+}
+.comments ul{
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    bottom: 24px;
+}
+.comments ul li{
+    width: 33px;
+    height: 33px;
+    /* background-color: #26A541; */
+    margin-right: 24px;
+    float: left;
+}
+.thumpsUp{
+    background: url(../img/thumbsUpIcon.png) no-repeat;
+    background-size: contain;
+    transition: all ease-in-out 0.46s;
+}
+.thumpsUp.active{
+    background: url(../img/thumbsUpPressed.png) no-repeat;
+    background-size: contain;
+}
+.thumpsUp:hover{
+    background: url(../img/thumbsUpHovered.png) no-repeat;
+    background-size: contain;
+}
+.thumbsDown{
+    background: url(../img/thumbsDownIcon.png) no-repeat;
+    background-size: contain;
+    transition: all ease-in-out 0.46s;
+}
+.thumbsDown.active{
+    background: url(../img/thumbsDownPressed.png) no-repeat;
+    background-size: contain;
+}
+.thumbsDown:hover{
+    background: url(../img/thumbsDownHovered.png) no-repeat;
+    background-size: contain;
+}
+
+/* PROFILE PAGE */
+
+.profileSectionFirstHalf{
+    width: 100%;
+    height: 659px;
+    font-family: "Poppins", serif;
+}
+.profileSectionFirstHalf h1{
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 23px;
+}
+.profilePicture{
+    margin: 23px 0px 0px 118px;
+    width: 483px;
+    height: 483px;
+    background: url(../img/ProfilePicture.png) no-repeat;
+    background-size: contain;
+    float: left;
+}
+.profileDetailedPart{
+    width: 735px;
+    height: 190px;
+    float: right;
+    margin-top: 177px;
+}
+.profileDetailedPart h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+.profileDetailedPart p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.profileSectionSecondHalf{
+    height: 550px;
+    width: 100%;
+    font-family: "Poppins", serif;
+}
+.profileSectionSecondHalf h1{
+    font-size: 35;
+    font-weight: normal;
+}
+.profileSectionSecondHalf p{
+    font-size: 24px;
+}
+.steakAndCoinBox{
+    width: 400px;
+    height: 265px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 28px;
+    margin-top: 50px;
+    float: left;
+}
+.steakAndCoinBox h1{
+    margin: 31px 47px 0px 47px;
+}
+.steakAndCoinBox p{
+    margin: 35px 0px 0px 47px;
+}
+.steakAndCoinBox p span{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+.activeCouponsBox{
+    width: 951px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 28px;
+    margin-top: 50px;
+    float: right;
+}
+.activeCouponsBox h1{
+    margin: 31px 47px 24px 60px;
+}
+.activeCouponsBox p{
+    margin: 0px 0px 30px 60px;
+    max-width: 835px;
+}
+.activeCouponsBox p span{
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.7);
+}
+.dropDownArrowIcon{
+    width: 73px;
+    height: 29px;
+    float: right;
+    margin: 4px 100px 0px 0px;
+    background: url(../img/dropDownArrowIcon.png) no-repeat;
+    background-size: contain;
+}
+.earnedBox{
+    width: 400px;
+    height: 115px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 28px;
+    margin-top: 20px;
+    float: left;
+}
+.earnedBox h1{
+    line-height: 115px;
+    margin-left: 30px;
+    float: left;
+}
+.earnedBox div{
+    width: 80px;
+    height: 80px;
+    float: right;
+}
+.streak{
+    background: url(../img/streaksCoin.png) center;
+    background-size: 130%;
+    margin: 17px 17px 0px 0px;
+}
+.Coins{
+    background: url(../img/sodaCoin.png) center;
+    background-size: contain;
+    margin: 17px 34px 0px 0px;
 }

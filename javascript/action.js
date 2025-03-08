@@ -14,3 +14,18 @@ function startTimer(duration) {
 window.onload = function () {
     startTimer(10 * 60 + 1);
 };
+
+//like
+
+const thumpsUpClass = document.querySelector('.thumpsUp')
+const thumbsDownClass = document.querySelector('.thumbsDown')
+
+thumpsUpClass.addEventListener('click',function(){
+    thumpsUpClass.classList.toggle('active')
+})
+
+thumbsDownClass.addEventListener('click',function(){
+    thumbsDownClass.classList.toggle('active')
+})
+
+
