@@ -945,6 +945,10 @@ video{
     margin: 4px 100px 0px 0px;
     background: url(../img/dropDownArrowIcon.png) no-repeat;
     background-size: contain;
+    transition: all ease-in-out 0.46s;
+}
+.dropDownArrowIcon:hover{
+    transform: scale(110%)
 }
 .earnedBox{
     width: 400px;
@@ -953,6 +957,11 @@ video{
     border-radius: 28px;
     margin-top: 20px;
     float: left;
+    transition: all ease-in-out 0.46s;
+}
+.earnedBox:hover{
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 28px;
 }
 .earnedBox h1{
     line-height: 115px;
